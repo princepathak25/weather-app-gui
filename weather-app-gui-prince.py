@@ -3,9 +3,17 @@
 # Built with Tkinter + Requests
 import tkinter as tk
 import requests
+import os
+from dotenv import load_dotenv
 
-# 🔑 API Key (replace with yours)
-API_KEY = "d475a2f672cd89541a5c625847609086"  # Replace with your actual API key
+load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), ".env"))
+
+API_KEY = os.getenv("OPENWEATHER_API_KEY")
+
+if not API_KEY:
+    raise ValueError("API key not found. Please set OPENWEATHER_API_KEY in .env file")
+
+# 🌤️ Function to fetch weather data
 
 def get_weather():
     city = city_entry.get()
