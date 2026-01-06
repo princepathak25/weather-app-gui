@@ -54,10 +54,10 @@ python weather-app-gui-prince.py
 ## 📁 Project Structure
 
 weather-gui-prince/
-├── weather-app-gui-prince.py/
-├── .gitignore/
-├── LICENSE/
-└── README.md/
+├── weather-app-gui-prince.py
+├── .gitignore
+├── LICENSE
+└── README.md
 
 ---
 
