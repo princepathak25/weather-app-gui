@@ -1,70 +1,38 @@
-# 🌦️ Prince's Weather GUI App
+# 🌤️ Prince's Weather GUI App
 
-A beautiful weather app built using **Python** and **Tkinter**, with emoji-enhanced UI and real-time weather updates using the **OpenWeatherMap API**.
+A clean and aesthetic **desktop weather application** built using **Python & Tkinter**.  
+It fetches real-time weather data from the **OpenWeatherMap API** and presents it in a simple, user-friendly GUI.
 
 ---
 
 ## ✨ Features
 
-- 🔍 Search for live weather by city name
-- 🌡️ Shows Temperature, Humidity, Pressure, Wind, and Condition
-- 💅 Beautiful dark UI with glowing input & styled buttons
-- ⚡ Fast, responsive, and easy to use
-- 🎯 Beginner-friendly Python GUI project
+- 🏙️ Search weather by city name
+- 🌡️ Displays temperature, humidity & weather conditions
+- ⚠️ Graceful handling of invalid city names
+- 🔐 Secure API key handling using environment variables
+- 🎨 Minimal and beginner-friendly Tkinter UI
+- 🚀 Fast and lightweight desktop application
 
 ---
 
-## 🚀 How to Run
+## 🛠️ Tech Stack
 
+- Python  
+- Tkinter  
+- Requests  
+- OpenWeatherMap API  
+- python-dotenv  
+
+---
+
+## 🚀 How to Run Locally
+
+### 1️⃣ Clone the repository
 ```bash
-pip install requests
-python weather-gui.py
-```
+git clone https://github.com/princepathak25/weather-gui-prince.git
+cd weather-gui-prince
 
-> 🔑 You’ll need your **OpenWeatherMap API key**. Get it [here](https://openweathermap.org/api) and replace it in the code at:
-```python
-API_KEY = "YOUR_API_KEY_HERE"
-```
-
----
-
-## 📸 Preview
-
-Coming soon...
-
----
-
-## 📂 File Structure
-
-```
-📦 weather-gui-prince
- ┣ 📄 weather-gui.py
- ┗ 📄 README.md
-```
-
----
-
-## 🛠 Built With
-
-- Python 🐍
-- Tkinter (GUI Library)
-- OpenWeatherMap API ☁️
-
----
-
-## 🧠 Why this Project?
-
-To level up from CLI apps into sleek GUI applications. This was built as part of a GitHub glow-up 💪.
-
----
-
-## 👨‍💻 About the Creator
-
-Made with 💙 by [Prince Pathak](https://github.com/princepathak25)  
-Just a dev trying to glow up on GitHub, one 🔥 project at a time.
-
----
-
-## 📜 License
-
-MIT — use it freely.
+### 2️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
