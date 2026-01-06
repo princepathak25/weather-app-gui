@@ -52,7 +52,7 @@ python weather-app-gui-prince.py
 ---
 
 ## 📁 Project Structure
-
+```text
 weather-gui-prince/
 ├── weather-app-gui-prince.py
 ├── .gitignore
