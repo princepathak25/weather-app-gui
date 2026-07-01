@@ -1,22 +1,22 @@
-# 🌤️ Prince's Weather GUI App
+# Weather GUI App
 
 A clean and aesthetic desktop weather application built using Python & Tkinter.
 It fetches real-time weather data from the OpenWeatherMap API and presents it in a simple, user-friendly GUI.
 
 ---
 
-## ✨ Features
+## Features
 
-- 🏙️ Search weather by city name
-- 🌡️ Displays temperature, humidity & weather conditions
-- ⚠️ Graceful handling of invalid city names
-- 🔐 Secure API key handling using environment variables
-- 🎨 Minimal and beginner-friendly Tkinter UI
-- 🚀 Fast and lightweight desktop application
+- Search weather by city name
+- Displays temperature, humidity & weather conditions
+- Handling of invalid city names
+- Secure API key handling using environment variables
+- Minimal Tkinter UI
+- Fast and lightweight desktop application
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python
 - Tkinter
@@ -26,7 +26,7 @@ It fetches real-time weather data from the OpenWeatherMap API and presents it in
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 1️⃣ Clone the repository
 
@@ -51,7 +51,7 @@ python weather-app-gui-prince.py
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```text
 weather-gui-prince/
 ├── weather-app-gui-prince.py
@@ -62,23 +62,12 @@ weather-gui-prince/
 
 ---
 
-## 🔐 Security Note
+## Made by Prince Pathak
 
-API keys are stored securely using environment variables (.env) and are never hardcoded into the source code.
-This follows real-world development and security best practices.
-
----
-
-## 📌 About the Creator
-
-Built with 💙 by Prince Pathak  
-An engineering student passionate about building practical, clean, and secure Python projects.
-
-⭐ Star this repository if you found it useful!
+Star this repository if you found it useful!
 
 ---
 
-## 📜 License
+## License
 
 Licensed under the MIT License.
-See the LICENSE file for details.
