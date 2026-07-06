@@ -1,6 +1,9 @@
-# Weather GUI App
+# GUI Weather App
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Tkinter](https://img.shields.io/badge/Tkinter-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![OpenWeather API](https://img.shields.io/badge/OpenWeather_API-FFB400?style=for-the-badge&logo=openweathermap&logoColor=white)
 
-A clean and aesthetic desktop weather application built using Python & Tkinter.
+A clean desktop weather application built using Python & Tkinter.
 It fetches real-time weather data from the OpenWeatherMap API and presents it in a simple, user-friendly GUI.
 
 ---
@@ -20,9 +23,7 @@ It fetches real-time weather data from the OpenWeatherMap API and presents it in
 
 - Python
 - Tkinter
-- Requests
 - OpenWeatherMap API
-- python-dotenv
 
 ---
 
@@ -30,8 +31,8 @@ It fetches real-time weather data from the OpenWeatherMap API and presents it in
 
 1️⃣ Clone the repository
 
-git clone https://github.com/princepathak25/weather-gui-prince.git  
-cd weather-gui-prince  
+git clone https://github.com/princepathak25/weather-app-gui.git  
+cd weather-app-gui 
 
 2️⃣ Install dependencies
 
@@ -53,21 +54,13 @@ python weather-app-gui-prince.py
 
 ## Project Structure
 ```text
-weather-gui-prince/
+weather-app-gui/
 ├── weather-app-gui-prince.py
 ├── .gitignore
-├── LICENSE
 └── README.md
 ```
 
 ---
 
-## Made by Prince Pathak
-
-Star this repository if you found it useful!
-
----
-
-## License
-
-Licensed under the MIT License.
+## Author
+**Prince Pathak**
