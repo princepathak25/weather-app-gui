@@ -13,8 +13,6 @@ API_KEY = os.getenv("OPENWEATHER_API_KEY")
 if not API_KEY:
     raise ValueError("API key not found. Please set OPENWEATHER_API_KEY in .env file")
 
-# Fetching weather data
-
 def get_weather():
     city = city_entry.get()
     if not city:
@@ -50,30 +48,23 @@ def get_weather():
     except Exception as e:
         result_label.config(text=" Error fetching weather.")
 
-# GUI Setup
 window = tk.Tk()
 window.title("Weather App")
 window.geometry("420x500")
 window.config(bg="#1e1e1e")
 
-# Heading
 heading = tk.Label(window, text="Enter City Name", font=("Segoe UI", 18), bg="#1e1e1e", fg="white")
 heading.pack(pady=(20, 10))
 
-# Simulate glow using Frame
 entry_frame = tk.Frame(window, bg="#00cec9", padx=2, pady=2)
 entry_frame.pack(pady=10)
-
 city_entry = tk.Entry(entry_frame, font=("Segoe UI", 16), bg="#2d2d2d", fg="white", bd=0, justify="center", insertbackground="white")
 city_entry.pack(ipadx=10, ipady=10)
 
-# Button
 get_btn = tk.Button(window, text="🔍 Get Weather", font=("Segoe UI", 14), bg="#00b894", fg="white", bd=0, padx=10, pady=10, command=get_weather, activebackground="#55efc4")
 get_btn.pack(pady=20)
 
-# Result Display
 result_label = tk.Label(window, text="", font=("Segoe UI", 14), bg="#1e1e1e", fg="#dfe6e9", justify="center")
 result_label.pack(padx=20, pady=10)
 
 window.mainloop()
-# Note: Make sure to install the requests library if you haven't already
